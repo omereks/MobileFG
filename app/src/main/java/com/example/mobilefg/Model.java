@@ -16,6 +16,8 @@ public class Model  extends AsyncTask<String,String,Void> {
     public String IP;
     public double throttle;
     public double rudder;
+    public double aileron;
+    public double elevator;
 
 
     private Socket socket;
@@ -31,6 +33,18 @@ public class Model  extends AsyncTask<String,String,Void> {
     public void setRudder(double rudder) {
         this.rudder = rudder;
         sendCommands("set /controls/flight/rudder " + String.valueOf(rudder) + "\r\n");
+    }
+
+    public void setAileron(float aileron) {
+        this.aileron = aileron;
+        Log.e("aileron", String.valueOf(aileron));
+        sendCommands("set /controls/flight/aileron " + String.valueOf(aileron) + "\r\n");
+    }
+
+    public void setElevator(float elevator) {
+        this.elevator = elevator;
+        Log.e("elevator", String.valueOf(elevator));
+        sendCommands("set /controls/flight/elevator " + String.valueOf(elevator) + "\r\n");
     }
 
     Model(String IP, int port){
@@ -84,4 +98,6 @@ public class Model  extends AsyncTask<String,String,Void> {
             System.out.println(e.toString());
         }
     }
+
+
 }

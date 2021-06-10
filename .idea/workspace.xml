@@ -7,12 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b228a5-0901-43bc-923e-2e5e1e11eada" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2021_11_16__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2021_11_16__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mobilefg/Joystick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mobilefg/OnJoystickValueChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mobilefg/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mobilefg/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mobilefg/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mobilefg/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -47,7 +56,9 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1tl120uAwDdETACFp61MXt8RnTn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,7 +68,14 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-10T13:41:14.282Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/Omer/Desktop/BIU/Projects/MobileFG/app/src/main/java/com/example/mobilefg/Joystick.java_SELECTED" value="Joystick" />
+    <property name="multi-representation-previewC:/Users/Omer/Desktop/BIU/Projects/MobileFG/app/src/main/java/com/example/mobilefg/Joystick.java_selected" value="Custom views" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1810522747">
+      <recent name="com.example.mobilefg" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -150,46 +168,68 @@
       <option name="presentableId" value="Default" />
       <updated>1623328651357</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="connect to FG and send rudder and throttle">
+      <created>1623345886907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623345886907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="connect to FG and send rudder and throttle" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect to FG and send rudder and throttle" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1623329840730">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1623346024608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623329840730" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623346024608" />
     <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1623332320425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623332320425" />
-    <state x="336" y="0" width="927" height="824" key="CommitChangelistDialog2" timestamp="1623313280011">
+    <state x="349" y="167" key="AndroidCreateResourceFileDialog" timestamp="1623356813113">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1623356813113" />
+    <state x="336" y="0" width="927" height="824" key="CommitChangelistDialog2" timestamp="1623345884941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="336" y="0" width="927" height="824" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623313280011" />
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1623345884941" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1623312710007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623312710007" />
-    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1623337789472">
+    <state width="1491" height="139" key="GridCell.Tab.0.bottom" timestamp="1623359697628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623337789472" />
-    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1623337789472">
+    <state width="1491" height="139" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1623359697628" />
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623358150926" />
+    <state width="1491" height="139" key="GridCell.Tab.0.center" timestamp="1623359697628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623337789472" />
-    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1623337789472">
+    <state width="1491" height="139" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1623359697628" />
+    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623358150926" />
+    <state width="1491" height="139" key="GridCell.Tab.0.left" timestamp="1623359697627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623337789471" />
-    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1623337789472">
+    <state width="1491" height="139" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1623359697627" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623358150925" />
+    <state width="1491" height="139" key="GridCell.Tab.0.right" timestamp="1623359697628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623337789472" />
+    <state width="1491" height="139" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1623359697628" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623358150926" />
     <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1623313164456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -202,10 +242,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="ShowDiffWithBranchDialog/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623312710010" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623313317134">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623345891133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623313317134" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623345891133" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623313082019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

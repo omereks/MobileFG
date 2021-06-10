@@ -3,12 +3,16 @@ package com.example.mobilefg;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -16,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public Model model = new Model("", 0);
 
+    @SuppressLint({"ClickableViewAccessibility", "WrongViewCast"})
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
 
         seekBarThrottle.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
@@ -84,6 +90,16 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+        Joystick joystick;
+        joystick = findViewById(R.id.joystick);
+        // send requests to change values
+        joystick.setValueChangeListener((aileron, elevator) -> {
+            model.setAileron(aileron);
+            model.setElevator(elevator);
+        });
+
     }
 
 
