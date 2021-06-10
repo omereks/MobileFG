@@ -5,6 +5,10 @@ plugins {
 android {
     compileSdkVersion 29
 
+    dataBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.example.mobilefg"
         minSdkVersion 16

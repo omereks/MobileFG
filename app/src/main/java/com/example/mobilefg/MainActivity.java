@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,7 +14,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Model model = new Model("", 0);
+    public Model model = new Model("", 0);
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
@@ -39,9 +40,12 @@ public class MainActivity extends AppCompatActivity {
         buttonConnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                model = new Model(editTextIP.getText().toString(), Integer.parseInt(editTextPort.getText().toString()));
-                model.Connect();
-
+                try {
+                    model = new Model(editTextIP.getText().toString(), Integer.parseInt(editTextPort.getText().toString()));
+                    model.Connect();
+                }catch (Exception e) {
+                    Log.e("Connection", "conection fail:", e);
+                }
 
             }
         });
