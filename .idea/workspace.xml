@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2b228a5-0901-43bc-923e-2e5e1e11eada" name="Default Changelist" comment="" />
+    <list default="true" id="f2b228a5-0901-43bc-923e-2e5e1e11eada" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mobilefg/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mobilefg/Model.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,19 +28,40 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="a">
+      <created>1623313152548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623313152548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1623313151319">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623313151319" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1623312710007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623312710007" />
+    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1623313164456">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623313164456" />
     <state x="93" y="93" width="1350" height="638" key="ShowDiffWithBranchDialog" timestamp="1623312710010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -47,10 +70,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623312768409" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623313074872">
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623313082019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623313074872" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1360.728@0.0.1536.824" timestamp="1623313082019" />
     <state x="541" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1623312968887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

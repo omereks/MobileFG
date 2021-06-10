@@ -1,5 +1,5 @@
 package com.example.mobilefg;
-
+//
 public class Model {
     int port;
     String IP;
