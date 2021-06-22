@@ -11,6 +11,7 @@ import android.view.View;
 
 import androidx.annotation.RequiresApi;
 
+import static android.graphics.Color.BLACK;
 import static android.graphics.Color.GRAY;
 import static android.graphics.Color.GREEN;
 import static android.view.MotionEvent.ACTION_CANCEL;
@@ -46,7 +47,7 @@ public class Joystick extends View {
         circlePaint.setColor(GREEN);
         circlePaint.setStyle(Paint.Style.FILL);
 
-        bgPaint.setColor(GRAY);
+        bgPaint.setColor(BLACK);
         bgPaint.setStyle(Paint.Style.FILL);
 
         borderPaint.setColor(Color.rgb(100, 100, 100));
