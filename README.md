@@ -20,7 +20,7 @@ This project was built with java for Android.
 
 ## Presentation Video
 https://youtu.be/POx-Qntp8_4
-[![Presentation Video](https://i9.ytimg.com/vi/POx-Qntp8_4/mq1.jpg?sqp=CNin04YG&rs=AOn4CLAfS-MAbKEzuYjHzb9VXowugCxB8g)](https://youtu.be/POx-Qntp8_4 "Presentation Video")
+[![Presentation Video](https://i2.paste.pics/de24fff8c73d7e5c4856cecdc300db75.png?trs=475c231022680624d5590487b5db54382c3c1bd4cf6636753bc4d2d0f400a67e)](https://youtu.be/POx-Qntp8_4 "Presentation Video")
 
 
 
