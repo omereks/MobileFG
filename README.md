@@ -51,7 +51,8 @@ To start the client and the server please follow this steps:
 * Enjoy
 
 ## UML
-![Web App UML](https://user-images.githubusercontent.com/60196825/120115223-5e33cc80-c18b-11eb-86bd-1566ec16cfad.jpeg)
+![MobileFG](https://user-images.githubusercontent.com/64811133/123526220-02ebf000-d6df-11eb-8d08-c8c01d69cdfe.png)
+
 
 
 
